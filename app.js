@@ -7,7 +7,7 @@ const logger = require("./logger")
 //middleware
 app.use(express.json())
 app.use(logger)  // will run on every path
-app.use(cors)
+app.use(cors())
 
 const fruitsRouter = require("./routes/fruits")
 

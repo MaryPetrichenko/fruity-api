@@ -1,7 +1,6 @@
 const fruits = require("../fruits.json")
 
-// Ypu will need to build a class 
-// constructer to build instances of the fruit to return to the controller
+
 class Fruit {
     constructor({genus, name, id, family, order, nutritions}) { // destructing the object to pass it
         this.genus = genus,
